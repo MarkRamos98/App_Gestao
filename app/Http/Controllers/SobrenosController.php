@@ -6,5 +6,7 @@ use Illuminate\Http\Request;
 
 class SobrenosController extends Controller
 {
-    //
+    public function sobrenos(){
+        
+    };
 }
