@@ -2,8 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/',[\App\http\Controllers\PrincipalController::class,'principal']);
-
 Route::get('/login', function(){
     echo "Futura Tela de Login";
 });
@@ -24,6 +22,4 @@ Route::get('/Fornecedores', function(){
     echo "Futura Tela de Fornecedores";
 });
 
-Route::get('/Principal', function(){
-    echo "Futura Tela principal";
-});
+Route::get('/', [\App\http\Controllers\PrincipalController::class,'principal']);
