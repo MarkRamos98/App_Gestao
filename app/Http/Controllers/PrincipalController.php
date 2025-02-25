@@ -8,5 +8,5 @@ class PrincipalController extends Controller
 {
     public function principal(){
         
-    };
+    }
 }

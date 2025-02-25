@@ -2,9 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[\App\http\Controllers\PrincipalController::class,'principal']);
 
 Route::get('/login', function(){
     echo "Futura Tela de Login";
@@ -18,13 +16,9 @@ Route::get('/produtos', function(){
     echo "Futura Tela de Produtos";
 });
 
-Route::get('/contato', function(){
-    echo "Futura Tela de Contato";
-});
+Route::get('/contato', [\App\http\Controllers\ContatoController::class,'contato']);
 
-Route::get('/sobre-nos', function(){
-    echo "Futura Tela Sobre Nós";
-});
+Route::get('/sobre-nos', [\App\http\Controllers\SobrenosController::class,'sobrenos']);
 
 Route::get('/Fornecedores', function(){
     echo "Futura Tela de Fornecedores";

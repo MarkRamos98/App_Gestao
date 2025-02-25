@@ -8,5 +8,5 @@ class ContatoController extends Controller
 {
     public function contato(){
         
-    };
+    }
 }

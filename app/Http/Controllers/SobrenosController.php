@@ -8,5 +8,5 @@ class SobrenosController extends Controller
 {
     public function sobrenos(){
         
-    };
+    }
 }

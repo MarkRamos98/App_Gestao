@@ -8,5 +8,5 @@ class ProdutosController extends Controller
 {
     public function produtos(){
         
-    };
+    }
 }

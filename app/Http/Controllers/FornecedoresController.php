@@ -8,5 +8,5 @@ class FornecedoresController extends Controller
 {
     public function fornecedores(){
         
-    };
+    }
 }
